@@ -16,7 +16,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Student{
+public class Student implements Serializable{
 
     @Id
     @GeneratedValue
